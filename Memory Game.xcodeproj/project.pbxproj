@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E90855C6260807D80085B6F7 /* Grid.swift in Sources */ = {isa = PBXBuildFile; fileRef = E90855C5260807D80085B6F7 /* Grid.swift */; };
 		E9501F9E25F58217006D1754 /* MemoryGameApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9501F8B25F58216006D1754 /* MemoryGameApp.swift */; };
 		E9501F9F25F58217006D1754 /* MemoryGameApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9501F8B25F58216006D1754 /* MemoryGameApp.swift */; };
 		E9501FA025F58217006D1754 /* MemoryGameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9501F8C25F58216006D1754 /* MemoryGameView.swift */; };
@@ -26,6 +27,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		E90855C5260807D80085B6F7 /* Grid.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Grid.swift; sourceTree = "<group>"; };
 		E9501F8B25F58216006D1754 /* MemoryGameApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoryGameApp.swift; sourceTree = "<group>"; };
 		E9501F8C25F58216006D1754 /* MemoryGameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoryGameView.swift; sourceTree = "<group>"; };
 		E9501F8D25F58217006D1754 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -85,6 +87,7 @@
 				E9501F8C25F58216006D1754 /* MemoryGameView.swift */,
 				E9501FEB25F6FED7006D1754 /* MemoryGameViewModel.swift */,
 				E9501FE725F5C8E8006D1754 /* MemoryGame.swift */,
+				E90855C5260807D80085B6F7 /* Grid.swift */,
 				E9501F8D25F58217006D1754 /* Assets.xcassets */,
 			);
 			path = Shared;
@@ -265,6 +268,7 @@
 				E9501FA025F58217006D1754 /* MemoryGameView.swift in Sources */,
 				E9501FE825F5C8E8006D1754 /* MemoryGame.swift in Sources */,
 				E9501F9E25F58217006D1754 /* MemoryGameApp.swift in Sources */,
+				E90855C6260807D80085B6F7 /* Grid.swift in Sources */,
 				E9501FEC25F6FED7006D1754 /* MemoryGameViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

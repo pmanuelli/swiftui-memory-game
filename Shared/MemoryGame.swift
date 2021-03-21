@@ -5,7 +5,7 @@ class MemoryGame<Content> {
     var cards: [Card]
     
     init(content: [Content]) {
-        self.cards = content.map { Card(isFaceUp: false, content: $0) }
+        self.cards = content.flatMap { [Card(isFaceUp: false, content: $0), Card(isFaceUp: false, content: $0)] }
     }
     
     func cardTapped(id: UUID) {

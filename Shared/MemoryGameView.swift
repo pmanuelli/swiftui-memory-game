@@ -6,11 +6,9 @@ struct MemoryGameView: View {
     
     var body: some View {
         
-        HStack() {
-            ForEach(viewModel.cardViewModels) { cardViewModel in
-                CardView(viewModel: cardViewModel)
-                    .onTapGesture { viewModel.cardViewModelTapped(cardViewModel) }
-            }
+        Grid(data: viewModel.cardViewModels, columnCount: 2) { cardViewModel in
+            CardView(viewModel: cardViewModel)
+                .onTapGesture { viewModel.cardViewModelTapped(cardViewModel) }
         }
         .padding()
         .foregroundColor(.green)
@@ -51,6 +49,7 @@ struct CardView: View {
         min(size.width, size.height) * 0.75
     }
 }
+
 
 struct ContentView_Previews: PreviewProvider {
     
